@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.louisgeek.louismdviewtest.MainActivity">
+
+   <Button
+       android:id="@+id/id_btn1"
+       android:text="show test1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/id_btn2"
+       android:text="show test2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/id_btn3"
+       android:text="show test3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+</LinearLayout>
