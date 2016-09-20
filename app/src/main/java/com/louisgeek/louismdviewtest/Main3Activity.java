@@ -3,7 +3,7 @@ package com.louisgeek.louismdviewtest;
 import android.os.Bundle;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
@@ -23,7 +23,8 @@ public class Main3Activity extends AppCompatActivity {
         View id_nsv_bottom_sheet_behavior_container=findViewById(R.id.id_nsv_bottom_sheet_behavior_container);
 
         RecyclerView idrv = (RecyclerView) findViewById(R.id.id_rv);
-        idrv.setLayoutManager(new LinearLayoutManager(this));
+        //idrv.setLayoutManager(new LinearLayoutManager(this));
+         idrv.setLayoutManager(new GridLayoutManager(this,6));
         idrv.setAdapter(new MyRecyclerViewAdapter());
 
         mBottomSheetBehavior = BottomSheetBehavior.from(id_nsv_bottom_sheet_behavior_container);

@@ -20,7 +20,7 @@
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/id_nsv_bottom_sheet_behavior_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
 
 

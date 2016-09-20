@@ -22,7 +22,13 @@
 
    <Button
        android:id="@+id/id_btn3"
-       android:text="show test3"
+       android:text="show dialog"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+   <Button
+       android:id="@+id/id_btn4"
+       android:text="top bottom"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"/>
 </LinearLayout>

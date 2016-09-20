@@ -50,8 +50,8 @@ public class Main4Activity extends AppCompatActivity {
 
 
        // View bottomSheet = findViewById(R.id.bottom_sheet);
-        BottomSheetBehavior bottomSheetBehavior = BottomSheetBehavior.from(id_bottom_sheet_container);
-        bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+       // BottomSheetBehavior bottomSheetBehavior = BottomSheetBehavior.from(id_bottom_sheet_container);
+        behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
 
         AppCompatButton btnBottomSheetDialogFragment = (AppCompatButton) findViewById(R.id.btnBottomSheetDialogFragment);
         btnBottomSheetDialogFragment.setOnClickListener(new View.OnClickListener() {
